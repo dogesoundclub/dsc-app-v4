@@ -1,4 +1,3 @@
-import "../style.css";
 import "./About.css";
 
 import Home from "./Home";

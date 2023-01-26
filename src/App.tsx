@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import "./style.css";
+import "./styles.css";
 
 export default function App() {
   return (

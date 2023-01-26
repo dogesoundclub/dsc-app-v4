@@ -10,7 +10,7 @@ p {
 
 @font-face {
   font-family: "NeoDunggeunmo";
-  src: url("../docs/font/neodgm.woff") format("woff");
+  src: url("./docs/font/neodgm.woff") format("woff");
 }
 
 /********** SECTION : MENU */
@@ -182,6 +182,6 @@ p {
   left: 1570px;
   top: 120px;
 
-  background-image: url("../docs/images/shared/img/logodsc400400.jpg");
+  background-image: url("./docs/images/shared/img/logodsc400400.jpg");
   background-size: cover;
 }

@@ -5,7 +5,7 @@
   left: 370px;
   top: 151px;
 
-  background-image: url("docs/images/shared/img/himaskman660660.png");
+  background-image: url("../docs/images/shared/img/himaskman660660.png");
   background-size: cover;
 }
 
@@ -126,7 +126,7 @@
   left: 370px;
   top: 540px;
 
-  background-image: url("../../docs/images/shared/img/chatBoxImg.png");
+  background-image: url("../docs/images/shared/img/chatBoxImg.png");
   background-size: cover;
 }
 
@@ -309,7 +309,7 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/DISCORD.png");
+  background-image: url("../docs/images/shared/img/icon/DISCORD.png");
   background-size: cover;
 }
 
@@ -322,7 +322,7 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/GITHUB.png");
+  background-image: url("../docs/images/shared/img/icon/GITHUB.png");
   background-size: cover;
 }
 
@@ -334,7 +334,7 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/TWITTER.png");
+  background-image: url("../docs/images/shared/img/icon/TWITTER.png");
   background-size: cover;
 }
 
@@ -347,7 +347,7 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/YOUTUBE.png");
+  background-image: url("../docs/images/shared/img/icon/YOUTUBE.png");
   background-size: cover;
 }
 
@@ -360,7 +360,7 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/TELEGRAM.png");
+  background-image: url("../docs/images/shared/img/icon/TELEGRAM.png");
   background-size: cover;
 }
 
@@ -373,6 +373,6 @@
   left: 5px;
   top: 20px;
 
-  background-image: url("../../docs/images/shared/img/icon/INSTAGRAM.png");
+  background-image: url("../docs/images/shared/img/icon/INSTAGRAM.png");
   background-size: cover;
 }

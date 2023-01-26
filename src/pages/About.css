@@ -1,6 +1,6 @@
 @font-face {
   font-family: "NeoDunggeunmo";
-  src: url("docs/font/neodgm.woff") format("woff");
+  src: url("../docs/font/neodgm.woff") format("woff");
 }
 
 .aboutBoxBackground {
@@ -102,6 +102,6 @@
   left: 0px;
   top: 480px;
 
-  background-image: url("docs/images/shared/img/dsccontest.png");
+  background-image: url("../docs/images/shared/img/dsccontest.png");
   background-size: cover;
 }
