@@ -1,0 +1,378 @@
+.hiMaskMan {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 370px;
+  top: 151px;
+
+  background-image: url("docs/images/shared/img/himaskman660660.png");
+  background-size: cover;
+}
+
+.sloganBox {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 165px;
+  height: 330px;
+  left: 705px;
+  top: 151px;
+
+  background: #586a82;
+  border: 1px solid #000000;
+}
+
+.sloganText {
+  position: absolute;
+  width: 150px;
+  height: 255.78px;
+  left: 718px;
+  top: 188.11px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.gameboyDsc {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 875px;
+  top: 151px;
+
+  background-image: url("https://storage.googleapis.com/dsc-sample/gameboydsc.gif");
+  background-size: cover;
+}
+
+.portalEngine {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 1210px;
+  top: 151px;
+
+  background-image: url("https://storage.googleapis.com/dsc-engine/gif/8680.gif");
+  background-size: cover;
+}
+
+.portalEngineBox {
+  position: absolute;
+  width: 330px;
+  height: 36px;
+  left: 1210px;
+  top: 151px;
+
+  background: #930101;
+}
+
+.portalEngineText {
+  position: absolute;
+  width: 240px;
+  height: 21px;
+  left: 1255px;
+  top: 158px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.bestDogeSoundBox {
+  position: absolute;
+  width: 1170px;
+  height: 40px;
+  left: 370px;
+  top: 490px;
+
+  background: #636363;
+}
+
+.bestDogeSoundText {
+  position: absolute;
+  width: 821px;
+  height: 16px;
+  left: 545px;
+  top: 502px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.chatBox {
+  position: absolute;
+  width: 1171px;
+  height: 181px;
+  left: 370px;
+  top: 540px;
+
+  background-image: url("../../docs/images/shared/img/chatBoxImg.png");
+  background-size: cover;
+}
+
+.chatText {
+  position: absolute;
+  width: 536px;
+  height: 96px;
+  left: 385px;
+  top: 606px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.footerLineMain {
+  position: absolute;
+  width: 1170px;
+  height: 0px;
+  left: 370px;
+  top: 745px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch1 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: -1px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch2 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 135px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch3 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 674px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch4 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 718px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch5 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 762px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch6 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 806px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch7 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 850px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch8 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 893px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
+.footerLineBranch9 {
+  /* @2023 DSC LABEL inc. */
+  position: absolute;
+  width: 210px;
+  height: 18px;
+  left: 970px;
+  top: 20px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+
+  color: #838383;
+}
+
+.footerLineBranchAttached1 {
+  /* TERMS */
+
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 5px;
+  top: 20px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #636363;
+}
+
+.footerLineBranchAttached2 {
+  /* CONTACT */
+
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  left: 5px;
+  top: 20px;
+
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #636363;
+}
+
+.footerLineBranchAttached3 {
+  /* Discord */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/DISCORD.png");
+  background-size: cover;
+}
+
+.footerLineBranchAttached4 {
+  /* Github */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/GITHUB.png");
+  background-size: cover;
+}
+
+.footerLineBranchAttached5 {
+  /* Twitter */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/TWITTER.png");
+  background-size: cover;
+}
+
+.footerLineBranchAttached6 {
+  /* Youtube */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/YOUTUBE.png");
+  background-size: cover;
+}
+
+.footerLineBranchAttached7 {
+  /* Telegram */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/TELEGRAM.png");
+  background-size: cover;
+}
+
+.footerLineBranchAttached8 {
+  /* Instagram */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 20px;
+
+  background-image: url("../../docs/images/shared/img/icon/INSTAGRAM.png");
+  background-size: cover;
+}
