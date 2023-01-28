@@ -5,7 +5,12 @@ p {
 }
 
 .body {
-  zoom: 100%;
+  position: relative;
+  left: -240px;
+  /*  position: absolute;
+  left: 500px;
+  top: 30px;
+*/
 }
 
 @font-face {
@@ -17,10 +22,10 @@ p {
 
 .NavlineMain {
   position: absolute;
-  width: 1170px;
+  width: 465px;
   height: 0px;
-  left: 370px;
-  top: 59px;
+  left: 30px;
+  top: 30px;
   border: 1px solid #ffffff;
 }
 
@@ -171,17 +176,4 @@ p {
   align-items: center;
 
   color: #ffffff;
-}
-
-/********** SECTION : LOGO */
-
-.logoDsc {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 1570px;
-  top: 120px;
-
-  background-image: url("./docs/images/shared/img/logodsc400400.jpg");
-  background-size: cover;
 }

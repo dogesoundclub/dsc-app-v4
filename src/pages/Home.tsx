@@ -2,41 +2,45 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="body">
+    <div>
       <div className="brandingSection">
         <div className="hiMaskMan" />
         <div className="sloganBox" />
-        <div className="sloganText"></div>
+        <div className="sloganText">
+          CHILL
+          <br />
+          IN
+          <br />
+          RETRO
+          <br />
+          <br />
+          RECOVER
+          <br />
+          YOUR
+          <br />
+          INNOCENCE
+          <br />
+          <br />
+          WITH
+          <br />
+          DSC
+          <br />
+          DSC
+          <br />
+        </div>
+        <div className="dummy1">a</div>
+        <div className="logoDsc"></div>
         <div className="gameboyDsc"></div>
         <div className="portalEngine"></div>
         <div className="portalEngineBox"></div>
         <div className="portalEngineText">!! DO NOT TOUCH !!</div>
       </div>
       <div className="bestDogeSoundBox"></div>
-      <div className="bestDogeSoundText">
-        형은 너희가 이런 실체도 없는 픽셀 쪼가리에 투자하는 걸보니 걱정이 되서
-        잠이 안온다. by 0xed57...
-      </div>
-      <div className="chatBox"></div>
-      <div className="chatText">
-        <br />- 짤롱(나)님이 도지사운드클럽에 입장하셨습니다.
-        <br />
-        이비 : ㅎㅇ
-        <br />
-        짤롱(나) : ㅎㅇ 이비 또 여기서 보네. 아까 학식 앞에 있는 거 봤는데.
-        <br />
-        이비 : 뭔솔?? 나 지금 한국 아니야.
-        <br />
-        짤롱(나) : 개소리해봤어.
-        <br />
-        이비 : ㅇㅎ
-      </div>
+      <div className="bestDogeSoundText">형은 너희가... by 0xed57...</div>
+
       <div className="footerLineMain">
         <div className="footerLineBranch1">
           <div className="footerLineBranchAttached1">TERM</div>
-        </div>
-        <div className="footerLineBranch2">
-          <div className="footerLineBranchAttached2">CONTACT</div>
         </div>
         <div className="footerLineBranch3">
           <div className="footerLineBranchAttached3"></div>
