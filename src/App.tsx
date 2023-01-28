@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Nftft from "./pages/Nftft";
+import FICTION from "./pages/FICTION";
 
 import "./styles.css";
 
@@ -14,6 +14,16 @@ export default function App() {
             <div className="NavLineBranch1">
               <div className="NavLineBranchText1">
                 <Link
+                  to="/Home"
+                  style={{ textDecoration: "none", color: "#ffffff" }}
+                >
+                  HOME
+                </Link>
+              </div>
+            </div>
+            <div className="NavLineBranch2">
+              <div className="NavLineBranchText2">
+                <Link
                   to="/About"
                   style={{ textDecoration: "none", color: "#ffffff" }}
                 >
@@ -21,28 +31,33 @@ export default function App() {
                 </Link>
               </div>
             </div>
-            <div className="NavLineBranch2">
-              <div className="NavLineBranchText2">
+            <div className="NavLineBranch3">
+              <div className="NavLineBranchText3">
                 <Link
-                  to="/Nftft"
+                  to="/Fiction"
                   style={{ textDecoration: "none", color: "#ffffff" }}
                 >
-                  Nftft
+                  FICTION
                 </Link>
               </div>
             </div>
-            <div className="NavLineBranch3">
-              <div className="NavLineBranchText3">AYIAS</div>
-            </div>
             <div className="NavLineBranch4">
-              <div className="NavLineBranchText4">BOT</div>
+              <div className="NavLineBranchText4">
+                <Link
+                  to="/Partners"
+                  style={{ textDecoration: "none", color: "#ffffff" }}
+                >
+                  PARTNERS
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/Home" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
-          <Route path="/Nftft" element={<Nftft />}></Route>
+          <Route path="/FICTION" element={<Fiction />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

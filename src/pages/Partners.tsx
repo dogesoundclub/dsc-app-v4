@@ -1,4 +1,4 @@
-import "./Partnerships.css";
+import "./Partners.css";
 
 import Home from "./Home";
 import "./Home.css";

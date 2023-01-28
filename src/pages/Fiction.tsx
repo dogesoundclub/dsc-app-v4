@@ -9,12 +9,12 @@ import React, { useState, useEffect } from "react";
 import Home from "./Home";
 import "./Home.css";
 
-export default function About() {
+export default function NFT() {
   const [response, setResponse] = useState({});
 
   useEffect(() => {
-    // https://dsclabel.notion.site/ABOUT-3c3fc05b21174bf48e70293ac115f96a
-    const NOTION_PAGE_ID = "3c3fc05b21174bf48e70293ac115f96a";
+    // 두번째 방법
+    const NOTION_PAGE_ID = "b6b76d94704f498fb7c1fb19c332a3f9";
     fetch(`https://notion-api.splitbee.io/v1/page/${NOTION_PAGE_ID}`)
       .then((res) => res.json())
       .then((resJson) => {

@@ -4,9 +4,24 @@ p {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.notion {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  caret-color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.notion * {
+  box-sizing: border-box;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
 .body {
   position: relative;
-  left: -240px;
+  left: -120px;
   /*  position: absolute;
   left: 500px;
   top: 30px;
