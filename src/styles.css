@@ -21,11 +21,6 @@ p {
 
 .body {
   position: relative;
-  left: -120px;
-  /*  position: absolute;
-  left: 500px;
-  top: 30px;
-*/
 }
 
 @font-face {

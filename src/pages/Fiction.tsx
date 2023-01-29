@@ -7,9 +7,8 @@ import { NotionRenderer } from "react-notion";
 import React, { useState, useEffect } from "react";
 
 import Home from "./Home";
-import "./Home.css";
 
-export default function NFT() {
+export default function Fiction() {
   const [response, setResponse] = useState({});
 
   useEffect(() => {

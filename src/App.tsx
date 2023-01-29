@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import FICTION from "./pages/FICTION";
+import Fiction from "./pages/Fiction";
 
 import "./styles.css";
 

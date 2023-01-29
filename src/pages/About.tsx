@@ -7,7 +7,6 @@ import { NotionRenderer } from "react-notion";
 import React, { useState, useEffect } from "react";
 
 import Home from "./Home";
-import "./Home.css";
 
 export default function About() {
   const [response, setResponse] = useState({});
@@ -23,7 +22,7 @@ export default function About() {
   }, []);
 
   return (
-    <div>
+    <div className="calibration">
       <Home></Home>
       <div className="contentStyle">
         <NotionRenderer

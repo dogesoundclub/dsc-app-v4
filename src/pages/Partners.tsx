@@ -1,7 +1,6 @@
 import "./Partners.css";
 
 import Home from "./Home";
-import "./Home.css";
 
 export default function Partnerships() {
   return (
