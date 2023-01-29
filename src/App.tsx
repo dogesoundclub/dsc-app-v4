@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Fiction from "./pages/Fiction";
+import Partners from "./pages/Partners";
 
 import "./styles.css";
 
@@ -58,6 +59,7 @@ export default function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Fiction" element={<Fiction />}></Route>
+          <Route path="/Partners" element={<Partners />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
