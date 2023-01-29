@@ -272,7 +272,7 @@
   font-family: "NeoDunggeunmo";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   /* or 100% */
 
@@ -282,19 +282,19 @@
 .footerLineBranch10 {
   /* --Go to old version */
   position: absolute;
-  width: 210px;
-  height: 16px;
-  left: 01px;
+  width: 240px;
+  height: 18px;
+  left: 270px;
   top: 80px;
 
   font-family: "NeoDunggeunmo";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   /* or 100% */
 
-  color: #000000;
+  color: #ffffff;
 }
 
 .footerLineBranchAttached1 {

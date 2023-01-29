@@ -61,7 +61,8 @@ export default function rootSource() {
           <div className="footerLineBranchAttached8"></div>
         </div>
         <div className="footerLineBranch9">@2023 DSC LABEL inc.</div>
-        <div className="footerLineBranch10">-- Go to old version --</div>
+        <div className="footerLineBranch10">GO TO OLD VERSION</div>
+        </div>
       </div>
     </div>
   );
