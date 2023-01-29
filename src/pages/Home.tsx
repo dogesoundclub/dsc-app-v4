@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <RootSource></RootSource>
-      <div className="idontknow"></div>
+      <div className="noContentStyle"></div>
     </div>
   );
 }

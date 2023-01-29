@@ -22,14 +22,12 @@ export default function About() {
     <div>
       <RootSource></RootSource>
       <div className="contentStyle">
-        {/* 
         <NotionRenderer
           // blockMap={staticResponse}
           blockMap={response}
           fullPage={true}
           hideHeader={true}
         />
-*/}
       </div>
     </div>
   );

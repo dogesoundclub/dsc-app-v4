@@ -21,14 +21,13 @@ p {
 
 .body {
   position: relative;
+  left: -30px;
 }
 
 @font-face {
   font-family: "NeoDunggeunmo";
   src: url("./docs/font/neodgm.woff") format("woff");
 }
-
-/********** SECTION : MENU */
 
 .NavlineMain {
   position: absolute;
@@ -52,7 +51,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 135px; /*-371*/
+  left: 81px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -62,7 +61,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 247px; /*-371*/
+  left: 181px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -72,7 +71,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 419px; /*-371*/
+  left: 321px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
