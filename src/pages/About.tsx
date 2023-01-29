@@ -1,12 +1,9 @@
 import "./common.css";
+import RootSource from "./RootSource";
 
-import "react-notion/src/styles.css";
-
+//import "react-notion/src/styles.css";
 import { NotionRenderer } from "react-notion";
-
 import React, { useState, useEffect } from "react";
-
-import Home from "./Home";
 
 export default function About() {
   const [response, setResponse] = useState({});
@@ -22,15 +19,17 @@ export default function About() {
   }, []);
 
   return (
-    <div className="calibration">
-      <Home></Home>
+    <div>
+      <RootSource></RootSource>
       <div className="contentStyle">
+        {/* 
         <NotionRenderer
           // blockMap={staticResponse}
           blockMap={response}
           fullPage={true}
           hideHeader={true}
         />
+*/}
       </div>
     </div>
   );

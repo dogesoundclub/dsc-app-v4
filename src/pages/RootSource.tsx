@@ -2,7 +2,7 @@ import "./common.css";
 
 export default function rootSource() {
   return (
-    <div className="nonotion">
+    <div>
       <div className="brandingSection">
         <div className="hiMaskMan" />
         <div className="sloganBox" />

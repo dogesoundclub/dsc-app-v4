@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Fiction from "./pages/Fiction";
@@ -14,7 +15,7 @@ export default function App() {
             <div className="NavLineBranch1">
               <div className="NavLineBranchText1">
                 <Link
-                  to="/Home"
+                  to="/"
                   style={{ textDecoration: "none", color: "#ffffff" }}
                 >
                   HOME
@@ -55,9 +56,8 @@ export default function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/Home" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
-          <Route path="/FICTION" element={<Fiction />}></Route>
+          <Route path="/Fiction" element={<Fiction />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
