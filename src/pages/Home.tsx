@@ -1,63 +1,11 @@
-import "./Home.css";
+import "./common.css";
+import RootSource from "./RootSource";
 
 export default function Home() {
   return (
-    <div className="body">
-      <div className="brandingSection">
-        <div className="hiMaskMan" />
-        <div className="sloganBox" />
-        <div className="sloganText"></div>
-        <div className="gameboyDsc"></div>
-        <div className="portalEngine"></div>
-        <div className="portalEngineBox"></div>
-        <div className="portalEngineText">!! DO NOT TOUCH !!</div>
-      </div>
-      <div className="bestDogeSoundBox"></div>
-      <div className="bestDogeSoundText">
-        형은 너희가 이런 실체도 없는 픽셀 쪼가리에 투자하는 걸보니 걱정이 되서
-        잠이 안온다. by 0xed57...
-      </div>
-      <div className="chatBox"></div>
-      <div className="chatText">
-        <br />- 짤롱(나)님이 도지사운드클럽에 입장하셨습니다.
-        <br />
-        이비 : ㅎㅇ
-        <br />
-        짤롱(나) : ㅎㅇ 이비 또 여기서 보네. 아까 학식 앞에 있는 거 봤는데.
-        <br />
-        이비 : 뭔솔?? 나 지금 한국 아니야.
-        <br />
-        짤롱(나) : 개소리해봤어.
-        <br />
-        이비 : ㅇㅎ
-      </div>
-      <div className="footerLineMain">
-        <div className="footerLineBranch1">
-          <div className="footerLineBranchAttached1">TERM</div>
-        </div>
-        <div className="footerLineBranch2">
-          <div className="footerLineBranchAttached2">CONTACT</div>
-        </div>
-        <div className="footerLineBranch3">
-          <div className="footerLineBranchAttached3"></div>
-        </div>
-        <div className="footerLineBranch4">
-          <div className="footerLineBranchAttached4"></div>
-        </div>
-        <div className="footerLineBranch5">
-          <div className="footerLineBranchAttached5"></div>
-        </div>
-        <div className="footerLineBranch6">
-          <div className="footerLineBranchAttached6"></div>
-        </div>
-        <div className="footerLineBranch7">
-          <div className="footerLineBranchAttached7"></div>
-        </div>
-        <div className="footerLineBranch8">
-          <div className="footerLineBranchAttached8"></div>
-        </div>
-        <div className="footerLineBranch9">@2023 DSC LABEL inc.</div>
-      </div>
+    <div>
+      <RootSource></RootSource>
+      <div className="noContentStyle"></div>
     </div>
   );
 }

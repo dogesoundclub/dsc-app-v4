@@ -4,23 +4,37 @@ p {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.notion {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  caret-color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.notion * {
+  box-sizing: border-box;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
 .body {
-  zoom: 100%;
+  position: relative;
+  left: -30px;
 }
 
 @font-face {
   font-family: "NeoDunggeunmo";
-  src: url("../docs/font/neodgm.woff") format("woff");
+  src: url("./docs/font/neodgm.woff") format("woff");
 }
-
-/********** SECTION : MENU */
 
 .NavlineMain {
   position: absolute;
-  width: 1170px;
+  width: 465px;
   height: 0px;
-  left: 370px;
-  top: 59px;
+  left: 30px;
+  top: 30px;
   border: 1px solid #ffffff;
 }
 
@@ -37,7 +51,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 135px; /*-371*/
+  left: 81px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -47,7 +61,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 247px; /*-371*/
+  left: 181px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -57,7 +71,7 @@ p {
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 419px; /*-371*/
+  left: 321px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -171,17 +185,4 @@ p {
   align-items: center;
 
   color: #ffffff;
-}
-
-/********** SECTION : LOGO */
-
-.logoDsc {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 1570px;
-  top: 120px;
-
-  background-image: url("../docs/images/shared/img/logodsc400400.jpg");
-  background-size: cover;
 }

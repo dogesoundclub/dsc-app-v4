@@ -1,9 +1,9 @@
 @font-face {
   font-family: "NeoDunggeunmo";
-  src: url("docs/font/neodgm.woff") format("woff");
+  src: url("../docs/font/neodgm.woff") format("woff");
 }
 
-.aboutBoxBackground {
+.partnershipsBoxBackground {
   position: absolute;
   width: 1171px;
   height: 780px;
@@ -15,7 +15,7 @@
   background-size: cover;
 }
 
-.aboutBox {
+.partnershipsBox {
   position: absolute;
   width: 1171px;
   height: 780px;
@@ -25,11 +25,11 @@
   overflow-y: scroll;
 }
 
-.aboutBox::-webkit-scrollbar {
+.partnershipsBox::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
 
-.aboutTextHeader {
+.partnershipsTitle {
   position: absolute;
   width: 720px;
   height: 810px;
@@ -46,7 +46,7 @@
   opacity: 100%;
 }
 
-.aboutTextContent {
+.partnershipsContent1 {
   position: absolute;
   width: 720px;
   height: 810px;
@@ -63,45 +63,13 @@
   opacity: 100%;
 }
 
-.faqTextHeader {
-  position: absolute;
-  width: 720px;
-  height: 810px;
-  left: 225px;
-  top: 420px;
-
-  font-family: "NeoDunggeunmo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-
-.faqTextContent {
-  position: absolute;
-  width: 720px;
-  height: 810px;
-  left: 0px;
-  top: 60px;
-
-  font-family: "NeoDunggeunmo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-
-.aboutImg {
+.partnershipsImg {
   position: absolute;
   width: 720px;
   height: 225px;
   left: 0px;
   top: 480px;
 
-  background-image: url("docs/images/shared/img/dsccontest.png");
+  background-image: url("../docs/images/shared/img/dsccontest.png");
   background-size: cover;
 }
