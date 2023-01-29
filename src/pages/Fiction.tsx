@@ -1,4 +1,5 @@
 import "./common.css";
+import RootSource from "./RootSource";
 
 import "react-notion/src/styles.css";
 
@@ -12,8 +13,8 @@ export default function Fiction() {
   const [response, setResponse] = useState({});
 
   useEffect(() => {
-    // 두번째 방법
-    const NOTION_PAGE_ID = "b6b76d94704f498fb7c1fb19c332a3f9";
+    // https://dsclabel.notion.site/FICTION-b2306331d42e40c8afc056b414bcb9fa
+    const NOTION_PAGE_ID = "b2306331d42e40c8afc056b414bcb9fa";
     fetch(`https://notion-api.splitbee.io/v1/page/${NOTION_PAGE_ID}`)
       .then((res) => res.json())
       .then((resJson) => {
@@ -23,7 +24,7 @@ export default function Fiction() {
 
   return (
     <div>
-      <Home></Home>
+      <RootSource></RootSource>
       <div className="contentStyle">
         <NotionRenderer
           // blockMap={staticResponse}
