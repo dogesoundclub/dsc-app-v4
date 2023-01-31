@@ -29,6 +29,23 @@ p {
   src: url("./docs/font/neodgm.woff") format("woff");
 }
 
+.NavLineBox {
+  position: relative;
+  width: 470px;
+  height: 780px;
+  left: 30px; /* 370 */
+  top: 90px; /* 151 */
+
+  background-color: #000000;
+  opacity: 100%;
+  background-size: cover;  
+  overflow-x: scroll;
+}
+
+.NavLineBox::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 .NavlineMain {
   position: absolute;
   width: 465px;
