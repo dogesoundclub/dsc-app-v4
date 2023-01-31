@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dsc-app-v4/static/css/main.5b188d73.css",
-    "main.js": "/dsc-app-v4/static/js/main.7e89fd4f.js",
+    "main.css": "/dsc-app-v4/static/css/main.055429e9.css",
+    "main.js": "/dsc-app-v4/static/js/main.a425f883.js",
     "static/media/himaskman660660.png": "/dsc-app-v4/static/media/himaskman660660.673db40f2b0b3b81d33f.png",
     "static/media/neodgm.woff": "/dsc-app-v4/static/media/neodgm.523c21df1190c7db8544.woff",
     "static/media/logodsc400400.jpg": "/dsc-app-v4/static/media/logodsc400400.258a97c59b383ccc22d5.jpg",
     "index.html": "/dsc-app-v4/index.html",
-    "main.5b188d73.css.map": "/dsc-app-v4/static/css/main.5b188d73.css.map",
-    "main.7e89fd4f.js.map": "/dsc-app-v4/static/js/main.7e89fd4f.js.map"
+    "main.055429e9.css.map": "/dsc-app-v4/static/css/main.055429e9.css.map",
+    "main.a425f883.js.map": "/dsc-app-v4/static/js/main.a425f883.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b188d73.css",
-    "static/js/main.7e89fd4f.js"
+    "static/css/main.055429e9.css",
+    "static/js/main.a425f883.js"
   ]
 }
