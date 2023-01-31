@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Fiction from "./pages/Fiction";
 import Partners from "./pages/Partners";
+import Term from "./pages/Term";
 
 import "./styles.css";
 
@@ -54,12 +55,23 @@ export default function App() {
                   </div>
                 </div>
               </div>
+              <div className="footerLineMain">
+                  <div className="footerLineBranch1">
+                <div className="footerLineBranchAttached1"><Link
+                      to="/Term"
+                      style={{ textDecoration: "none", color: "#ffffff;" }}
+                    >
+                      TERM
+                    </Link></div>
+        </div>
+      </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Fiction" element={<Fiction />}></Route>
           <Route path="/Partners" element={<Partners />}></Route>
+          <Route path="/Term" element={<Term />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

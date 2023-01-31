@@ -42,9 +42,11 @@ export default function rootSource() {
       <div className="bestDogeSoundText">형은 너희가... by 0xed57...</div>
 
       <div className="footerLineMain">
+{/*        
         <div className="footerLineBranch1">
           <div className="footerLineBranchAttached1">TERM</div>
         </div>
+*/}
         <div className="footerLineBranch3">
           <ExternalLink href="https://discord.gg/dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
         </div>
