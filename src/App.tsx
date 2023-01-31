@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="body">
       <BrowserRouter>
-        <nav>
+        <div>
               <div className="NavlineMain">
                 <div className="NavLineBranch1">
                   <div className="NavLineBranchText1">
@@ -62,10 +62,11 @@ export default function App() {
                       style={{ textDecoration: "none", color: "#ffffff;" }}
                     >
                       TERM
-                    </Link></div>
+                    </Link>
+                </div>
+                  </div>
+              </div>
         </div>
-      </div>
-        </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
