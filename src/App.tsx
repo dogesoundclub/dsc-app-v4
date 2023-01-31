@@ -12,48 +12,48 @@ export default function App() {
     <div className="body">
       <BrowserRouter>
         <nav>
-          <div className="NavlineMain">
-            <div className="NavLineBranch1">
-              <div className="NavLineBranchText1">
-                <Link
-                  to="/"
-                  style={{ textDecoration: "none", color: "#ffffff" }}
-                >
-                  HOME
-                </Link>
+              <div className="NavlineMain">
+                <div className="NavLineBranch1">
+                  <div className="NavLineBranchText1">
+                    <Link
+                      to="/"
+                      style={{ textDecoration: "none", color: "#ffffff" }}
+                    >
+                      HOME
+                    </Link>
+                  </div>
+                </div>
+                <div className="NavLineBranch2">
+                  <div className="NavLineBranchText2">
+                    <Link
+                      to="/About"
+                      style={{ textDecoration: "none", color: "#ffffff" }}
+                    >
+                      ABOUT
+                    </Link>
+                  </div>
+                </div>
+                <div className="NavLineBranch3">
+                  <div className="NavLineBranchText3">
+                    <Link
+                      to="/Fiction"
+                      style={{ textDecoration: "none", color: "#ffffff" }}
+                    >
+                      FICTION
+                    </Link>
+                  </div>
+                </div>
+                <div className="NavLineBranch4">
+                  <div className="NavLineBranchText4">
+                    <Link
+                      to="/Partners"
+                      style={{ textDecoration: "none", color: "#ffffff" }}
+                    >
+                      PARTNERS
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="NavLineBranch2">
-              <div className="NavLineBranchText2">
-                <Link
-                  to="/About"
-                  style={{ textDecoration: "none", color: "#ffffff" }}
-                >
-                  ABOUT
-                </Link>
-              </div>
-            </div>
-            <div className="NavLineBranch3">
-              <div className="NavLineBranchText3">
-                <Link
-                  to="/Fiction"
-                  style={{ textDecoration: "none", color: "#ffffff" }}
-                >
-                  FICTION
-                </Link>
-              </div>
-            </div>
-            <div className="NavLineBranch4">
-              <div className="NavLineBranchText4">
-                <Link
-                  to="/Partners"
-                  style={{ textDecoration: "none", color: "#ffffff" }}
-                >
-                  PARTNERS
-                </Link>
-              </div>
-            </div>
-          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
