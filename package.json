@@ -9,12 +9,14 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-external-link": "^2.0.1",
     "react-notion": "^0.10.0",
     "react-notion-x": "^6.15.7",
-    "react-router-dom": "^6.7.0",
-    "react-scripts": "4.0.3"
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "18.0.25",

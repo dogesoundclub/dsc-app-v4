@@ -6,7 +6,7 @@
 .noContentStyle {
   position: relative;
   width: 470px;
-  height: 780px;
+  height: 720px;
   left: 30px; /* 370 */
   top: 90px; /* 151 */
 
@@ -352,6 +352,7 @@
 
   background-image: url("../docs/images/shared/img/icon/DISCORD.png");
   background-size: cover;
+
 }
 
 .footerLineBranchAttached4 {

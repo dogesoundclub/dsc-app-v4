@@ -1,3 +1,6 @@
+import React from 'react';
+import { ExternalLink } from 'react-external-link';
+
 import "./common.css";
 
 export default function rootSource() {
@@ -43,25 +46,27 @@ export default function rootSource() {
           <div className="footerLineBranchAttached1">TERM</div>
         </div>
         <div className="footerLineBranch3">
-          <div className="footerLineBranchAttached3"></div>
+          <ExternalLink href="https://discord.gg/dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
         </div>
         <div className="footerLineBranch4">
-          <div className="footerLineBranchAttached4"></div>
+          <ExternalLink href="https://github.com/dogesoundclub"><div className="footerLineBranchAttached4"></div></ExternalLink>
         </div>
         <div className="footerLineBranch5">
-          <div className="footerLineBranchAttached5"></div>
+          <ExternalLink href="https://twitter.com/dogesoundclub"><div className="footerLineBranchAttached5"></div></ExternalLink>
         </div>
         <div className="footerLineBranch6">
-          <div className="footerLineBranchAttached6"></div>
+          <ExternalLink href="https://www.youtube.com/@dogesoundclub_kr"><div className="footerLineBranchAttached6"></div></ExternalLink>
         </div>
         <div className="footerLineBranch7">
-          <div className="footerLineBranchAttached7"></div>
+          <ExternalLink href="https://t.me/dogesoundclub"><div className="footerLineBranchAttached7"></div></ExternalLink>
         </div>
         <div className="footerLineBranch8">
-          <div className="footerLineBranchAttached8"></div>
+          <ExternalLink href="https://www.instagram.com/dogesoundclub/"><div className="footerLineBranchAttached8"></div></ExternalLink>
         </div>
         <div className="footerLineBranch9">@2023 DSC LABEL inc.</div>
-        <div className="footerLineBranch10">GO TO OLD VERSION</div>
+        <div className="footerLineBranch10">
+          <a  style={{ textDecoration: "none", color: "#ffffff" }} 
+              href='https://v3.dogesound.club'>--{'>'} GO TO OLD VERSION</a>
         </div>
       </div>
     </div>
