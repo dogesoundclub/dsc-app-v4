@@ -19,7 +19,7 @@ export default function About() {
   }, []);
 
   return (
-    <div>
+    <div className="body">
       <RootSource></RootSource>
       <div className="contentStyle">
         <NotionRenderer

@@ -21,7 +21,7 @@ export default function Term() {
   }, []);
 
   return (
-    <div>
+    <div className="body">
       <RootSource></RootSource>
       <div className="contentStyle">
         <NotionRenderer

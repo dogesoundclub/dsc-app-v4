@@ -3,9 +3,8 @@ import RootSource from "./RootSource";
 
 export default function Home() {
   return (
-    <div>
+    <div className="body">
       <RootSource></RootSource>
-      <div className="noContentStyle"></div>
     </div>
   );
 }

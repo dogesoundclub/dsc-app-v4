@@ -7,8 +7,6 @@ import { NotionRenderer } from "react-notion";
 
 import React, { useState, useEffect } from "react";
 
-import Home from "./Home";
-
 export default function Fiction() {
   const [response, setResponse] = useState({});
 
@@ -23,7 +21,7 @@ export default function Fiction() {
   }, []);
 
   return (
-    <div>
+    <div className="body">
       <RootSource></RootSource>
       <div className="contentStyle">
         <NotionRenderer

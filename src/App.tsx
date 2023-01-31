@@ -5,14 +5,15 @@ import About from "./pages/About";
 import Fiction from "./pages/Fiction";
 import Partners from "./pages/Partners";
 import Term from "./pages/Term";
+import RootSource from "./pages/RootSource";
 
 import "./styles.css";
 
 export default function App() {
   return (
-    <div className="body">
       <BrowserRouter>
-        <div>
+        <div className="body">
+        <RootSource></RootSource>
               <div className="NavlineMain">
                 <div className="NavLineBranch1">
                   <div className="NavLineBranchText1">
@@ -66,6 +67,7 @@ export default function App() {
                 </div>
                   </div>
               </div>
+              <div className="dummyBoxRight"></div>
         </div>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -73,8 +75,7 @@ export default function App() {
           <Route path="/Fiction" element={<Fiction />}></Route>
           <Route path="/Partners" element={<Partners />}></Route>
           <Route path="/Term" element={<Term />}></Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+        </Routes>        
+        </BrowserRouter>       
   );
 }
