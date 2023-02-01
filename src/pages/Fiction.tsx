@@ -1,7 +1,5 @@
-import "./common.css";
+import "../styles.css";
 import RootSource from "./RootSource";
-
-import "react-notion/src/styles.css";
 
 import { NotionRenderer } from "react-notion";
 
@@ -21,15 +19,17 @@ export default function Fiction() {
   }, []);
 
   return (
-    <div className="body">
+    <div>
       <RootSource></RootSource>
-      <div className="contentStyle">
+      <div className="notionBackground">
+      <div className="notionPosition">
         <NotionRenderer
           // blockMap={staticResponse}
           blockMap={response}
           fullPage={true}
           hideHeader={true}
         />
+      </div>
       </div>
     </div>
   );

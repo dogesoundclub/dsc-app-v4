@@ -12,8 +12,7 @@ import "./styles.css";
 export default function App() {
   return (
       <BrowserRouter>
-        <div className="body">
-        <RootSource></RootSource>
+        <nav className='NavBox'>
               <div className="NavlineMain">
                 <div className="NavLineBranch1">
                   <div className="NavLineBranchText1">
@@ -67,8 +66,8 @@ export default function App() {
                 </div>
                   </div>
               </div>
-              <div className="dummyBoxRight"></div>
-        </div>
+              
+        </nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
