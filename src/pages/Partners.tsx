@@ -21,7 +21,7 @@ export default function Partners() {
   }, []);
 
   return (
-    <div>
+    <div className="cali">
       <RootSource></RootSource>
       <div className="notionBackground">
       <div className="notionPosition">

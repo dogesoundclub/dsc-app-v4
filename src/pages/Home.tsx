@@ -3,8 +3,9 @@ import RootSource from "./RootSource";
 
 export default function Home() {
   return (
-    <div>
+    <div className="cali">
       <RootSource></RootSource>
+      <div className="notionDummy"></div>
     </div>
   );
 }
