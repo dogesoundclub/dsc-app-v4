@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dsc-app-v4/static/css/main.84e3037e.css",
-    "main.js": "/dsc-app-v4/static/js/main.5c149ee7.js",
+    "main.js": "/dsc-app-v4/static/js/main.a70185d5.js",
     "static/media/himaskman660660.png": "/dsc-app-v4/static/media/himaskman660660.673db40f2b0b3b81d33f.png",
     "static/media/neodgm.woff": "/dsc-app-v4/static/media/neodgm.523c21df1190c7db8544.woff",
     "static/media/logodsc400400.jpg": "/dsc-app-v4/static/media/logodsc400400.258a97c59b383ccc22d5.jpg",
     "index.html": "/dsc-app-v4/index.html",
     "main.84e3037e.css.map": "/dsc-app-v4/static/css/main.84e3037e.css.map",
-    "main.5c149ee7.js.map": "/dsc-app-v4/static/js/main.5c149ee7.js.map"
+    "main.a70185d5.js.map": "/dsc-app-v4/static/js/main.a70185d5.js.map"
   },
   "entrypoints": [
     "static/css/main.84e3037e.css",
-    "static/js/main.5c149ee7.js"
+    "static/js/main.a70185d5.js"
   ]
 }
