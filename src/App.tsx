@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,7 +12,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename='/dsc-app-v4'>
               <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
@@ -62,9 +63,14 @@ export default function App() {
                   </div>
                 </div>
               </div>
-              <div className="footerLineMain">
-                  <div className="footerLineBranch1">
-                <div className="footerLineBranchAttached1"><Link
+
+              
+        </nav>
+
+        <div className="footerLineMain">
+          <div className="footerLineBranch1">
+                <div className="footerLineBranchAttached1">
+                  <Link
                       to="/Term"
                       style={{ textDecoration: "none", color: "#ffffff;" }}
                     >
@@ -72,10 +78,36 @@ export default function App() {
                     </Link>
                 </div>
                   </div>
-              </div>
-              
-        </nav>
-        <RootSource></RootSource>
+          <div className="footerLineBranch3">
+            <ExternalLink href="https://discord.gg/dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
+          </div>
+          <div className="footerLineBranch4">
+            <ExternalLink href="https://github.com/dogesoundclub"><div className="footerLineBranchAttached4"></div></ExternalLink>
+          </div>
+          <div className="footerLineBranch5">
+            <ExternalLink href="https://twitter.com/dogesoundclub"><div className="footerLineBranchAttached5"></div></ExternalLink>
+          </div>
+          <div className="footerLineBranch6">
+            <ExternalLink href="https://www.youtube.com/@dogesoundclub_kr"><div className="footerLineBranchAttached6"></div></ExternalLink>
+          </div>
+          <div className="footerLineBranch7">
+            <ExternalLink href="https://t.me/dogesoundclub"><div className="footerLineBranchAttached7"></div></ExternalLink>
+          </div>
+          <div className="footerLineBranch8">
+            <ExternalLink href="https://www.instagram.com/dogesoundclub/"><div className="footerLineBranchAttached8"></div></ExternalLink>
+          </div>
+        <div className="footerLineBranch9">@2023 DSC LABEL inc.</div>
+        <div className="footerLineBranch10">
+          <a  style={{ textDecoration: "none", color: "#ffffff" }} 
+              href='https://v3.dogesound.club'>--{'>'} GO TO OLD VERSION</a>
+        </div>
+      </div>
+
+
+
+        {/* <div className="footerLineMain"> */}
+
+              {/* </div> */}
         </BrowserRouter>       
   );
 }

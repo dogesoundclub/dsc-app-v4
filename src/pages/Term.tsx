@@ -21,15 +21,17 @@ export default function Term() {
   }, []);
 
   return (
-    <div>
+    <div className="cali">
       <RootSource></RootSource>
-      <div className="contentStyle">
+      <div className="notionBackground">
+      <div className="notionPosition">
         <NotionRenderer
           // blockMap={staticResponse}
           blockMap={response}
           fullPage={true}
           hideHeader={true}
         />
+      </div>
       </div>
     </div>
   );
