@@ -12,7 +12,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-      <BrowserRouter basename='/dsc-app-v4'>
+      <BrowserRouter>
               <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
