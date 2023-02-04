@@ -8,25 +8,25 @@ export default function rootSource() {
     <div className='hi'>
         <div className="hiMaskMan" />
         <div className="sloganBox"><div className="sloganText">
-          CHILL
+          2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
           <br />
-          IN
+          
           <br />
-          RETRO
-          <br />
-          <br />
-          RECOVER
-          <br />
-          YOUR
-          <br />
-          INNOCENCE
+
           <br />
           <br />
-          WITH
+          DETECT
           <br />
-          DSC
+          BREAK&nbsp;
           <br />
-          DSC
+          ESCAPE
+          <br />
+          <br />
+          
+          <br />
+          
+          <br />
+          1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0
           <br />
         </div></div>
         
@@ -38,8 +38,8 @@ export default function rootSource() {
             </div>
             </div>
         
-      <div className="bestDogeSoundBox">
-        <div className="bestDogeSoundText">형은 너희가... by 0xed57...</div>
+            <div className="bestDogeSoundBox">
+              <div className="bestDogeSoundText">요즘 정말 살맛 난다....^^ by 0x62e3</div>
       </div>
     </div>
     

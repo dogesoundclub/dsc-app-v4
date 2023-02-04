@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
 
 import Home from "./pages/Home";
@@ -12,7 +12,8 @@ import "./styles.css";
 
 export default function App() {
   return (
-      <BrowserRouter>
+    <HashRouter basename='/'>
+      <div>DETECT! BREAK! ESCAPE!</div>
               <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
@@ -72,14 +73,14 @@ export default function App() {
                 <div className="footerLineBranchAttached1">
                   <Link
                       to="/Term"
-                      style={{ textDecoration: "none", color: "#ffffff;" }}
+                      style={{ textDecoration: "none", color: "#636363" }}
                     >
                       TERM
                     </Link>
                 </div>
                   </div>
           <div className="footerLineBranch3">
-            <ExternalLink href="https://discord.gg/dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
+            <ExternalLink href="https://github.com/dogesoundclub/fiction-dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
           </div>
           <div className="footerLineBranch4">
             <ExternalLink href="https://github.com/dogesoundclub"><div className="footerLineBranchAttached4"></div></ExternalLink>
@@ -108,6 +109,6 @@ export default function App() {
         {/* <div className="footerLineMain"> */}
 
               {/* </div> */}
-        </BrowserRouter>       
+        </HashRouter>       
   );
 }
