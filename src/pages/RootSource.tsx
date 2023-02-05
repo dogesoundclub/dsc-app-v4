@@ -9,14 +9,23 @@ export default function rootSource() {
 
   //const [loading, setLoading] = useState(true);
   const [dogeSound, setDogeSound] = useState([]);
-  const getDogeSoundWinner = async () => {
+  const [round, setcontestRound] = useState([]);
+  const [winner, setContestWinner] = useState([]);
+
+  const getContestResult = async () => {
     const json = await (await fetch(`https://api.dogesound.club/dogesoundwinner`)).json();
     setDogeSound(json.dogesound);
+    setcontestRound(json.round);
+    setContestWinner(json.winner);
   //setLoading(false);
   };
+
   useEffect(() => {
-    getDogeSoundWinner();
+    getContestResult();
   }, []);
+
+  const congratulation = "개소리 경연 제 " + round + "회 우승자 : " + dogeSound;
+
   //console.log(dogeSound);
 
   return (    
@@ -54,7 +63,7 @@ export default function rootSource() {
             </div>
         
             <div className="bestDogeSoundBox">
-              <div className="bestDogeSoundText">{dogeSound}</div>
+              <div className="bestDogeSoundText">{congratulation}</div>
       </div>
     </div>
     
