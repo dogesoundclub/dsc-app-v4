@@ -6,17 +6,18 @@ import { ExternalLink } from 'react-external-link';
 import "../styles.css";
 
 export default function rootSource() {
-  const [loading, setLoading] = useState(true);
+
+  //const [loading, setLoading] = useState(true);
   const [dogeSound, setDogeSound] = useState([]);
-  const getMovies = async () => {
-    const json = await (await fetch(`https://api.dogesound.club/dogesoundwinner`)).json(); // await를 await로 감싸기
+  const getDogeSoundWinner = async () => {
+    const json = await (await fetch(`https://api.dogesound.club/dogesoundwinner`)).json();
     setDogeSound(json.dogesound);
-    setLoading(false);
+  //setLoading(false);
   };
   useEffect(() => {
-    getMovies();
+    getDogeSoundWinner();
   }, []);
-  console.log(dogeSound);
+  //console.log(dogeSound);
 
   return (    
     <div className='hi'>
