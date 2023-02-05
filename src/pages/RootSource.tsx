@@ -39,7 +39,7 @@ export default function rootSource() {
             </div>
         
             <div className="bestDogeSoundBox">
-              <div className="bestDogeSoundText">요즘 정말 살맛 난다....^^ by 0x62e3</div>
+              <div className="bestDogeSoundText">도사클 하나로 노후준비 끝났다. by 0xde9c</div>
       </div>
     </div>
     
