@@ -1,5 +1,6 @@
 import "../styles.css";
 import RootSource from "./RootSource";
+import superagent from "superagent";
 
 export default function Home() {
   return (
@@ -7,5 +8,8 @@ export default function Home() {
       <RootSource></RootSource>
       <div className="notionDummy"></div>
     </div>
-  );
+  ); 
+  
+  const result = superagent.get("https://api.dogesound.club/dogesoundwinner");
+  console.log(result);
 }

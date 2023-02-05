@@ -1,10 +1,24 @@
-import React from 'react';
+import axios from "axios";
+import React from "react";
+import { useState, useEffect } from "react";
 import { ExternalLink } from 'react-external-link';
 
 import "../styles.css";
 
 export default function rootSource() {
-  return (
+  const [loading, setLoading] = useState(true);
+  const [dogeSound, setDogeSound] = useState([]);
+  const getMovies = async () => {
+    const json = await (await fetch(`https://api.dogesound.club/dogesoundwinner`)).json(); // await를 await로 감싸기
+    setDogeSound(json.dogesound);
+    setLoading(false);
+  };
+  useEffect(() => {
+    getMovies();
+  }, []);
+  console.log(dogeSound);
+
+  return (    
     <div className='hi'>
         <div className="hiMaskMan" />
         <div className="sloganBox"><div className="sloganText">
@@ -39,7 +53,7 @@ export default function rootSource() {
             </div>
         
             <div className="bestDogeSoundBox">
-              <div className="bestDogeSoundText">도사클 하나로 노후준비 끝났다. by 0xde9c</div>
+              <div className="bestDogeSoundText">{dogeSound}</div>
       </div>
     </div>
     
