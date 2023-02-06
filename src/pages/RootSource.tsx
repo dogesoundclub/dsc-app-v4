@@ -15,8 +15,9 @@ export default function rootSource() {
   const getContestResult = async () => {
     const json = await (await fetch(`https://api.dogesound.club/dogesoundwinner`)).json();
     setDogeSound(json.dogesound);
-    setcontestRound(json.round);
+    setcontestRound(json.round+1);
     setContestWinner(json.winner);
+
   //setLoading(false);
   };
 
@@ -24,46 +25,26 @@ export default function rootSource() {
     getContestResult();
   }, []);
 
-  const congratulation = "개소리 경연 제 " + round + "회 우승자 : " + dogeSound;
-
+  const congratulation = "개소리경연 제" + round + "회 우승작 : " + dogeSound + " BY " + winner;
+  const TEXT_DO_NOT_TOUCH = "!! DO NOT TOUCH !!";
   //console.log(dogeSound);
 
   return (    
     <div className='hi'>
         <div className="hiMaskMan" />
-        <div className="sloganBox"><div className="sloganText">
-          2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
-          <br />
-          
-          <br />
-
-          <br />
-          <br />
-          DETECT
-          <br />
-          BREAK&nbsp;
-          <br />
-          ESCAPE
-          <br />
-          <br />
-          
-          <br />
-          
-          <br />
-          1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0
-          <br />
-        </div></div>
+        <div className="sloganBox">
+        </div>
         
         <div className="logoDsc"></div>
         <div className="gameboyDsc"></div>
         <div className="portalEngine">
           <div className="portalEngineBox">
-            <div className="portalEngineText">!! DO NOT TOUCH !!</div>
+            <div className="portalEngineText">{TEXT_DO_NOT_TOUCH}</div>
             </div>
             </div>
         
             <div className="bestDogeSoundBox">
-              <div className="bestDogeSoundText">{congratulation}</div>
+              <div className="bestDogeSoundText"><div className="wrapperDogeSound"><p className="targetDogeSound">{congratulation}</p></div></div>
       </div>
     </div>
     

@@ -146,7 +146,7 @@
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 81px; /*-371*/
+  left: 59px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -156,7 +156,7 @@
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 181px; /*-371*/
+  left: 179px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -166,7 +166,7 @@
   position: absolute;
   width: 0px;
   height: 10px;
-  left: 321px; /*-371*/
+  left: 284px; /*-371*/
   top: 0px; /*-59*/
 
   border: 1px solid #ffffff;
@@ -335,10 +335,10 @@
   width: 150px;
   height: 300px;
   left: 315px;
-  top: -301px;
+  top: -300px;
 
-  background: #586a82;
-  border: 1px solid #000000;
+  background-image: url("https://storage.googleapis.com/dsc-sample/sloganBox.png");
+  background-size: cover;
 }
 
 .sloganText {
@@ -362,17 +362,18 @@
 
 .bestDogeSoundBox {
   position: relative;
-  width: 465px;
+  width: 457px;
   height: 40px;
   left: 0px;
   top: -892px;
 
   background: #636363;
+  border: 4px solid #eb1c49;
 }
 
 .bestDogeSoundText {
   position: relative;
-  width: 480px;
+  width: 475px;
   height: 16px;
   left: 80px;
   top: 12px;
@@ -389,6 +390,42 @@
   /* identical to box height */
 
   color: #ffffff;
+}
+
+.wrapperDogeSound {
+  position : relative;
+  top : -15px;
+  left : -88px;
+  width: 456px;
+  height: 39px;
+  
+  margin: auto;
+
+  overflow-x: hidden;
+}
+
+.wrapperDogeSound::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.targetDogeSound {
+  width: 1000px;
+  font-weight: bold;
+  color: #fbfbfb;
+  animation-name: rightToLeft;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation: rightToLeft 4.5s linear infinite; */
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(450px);
+  }
+  100% {
+    transform: translateX(-900px);
+  }
 }
 
 
@@ -410,7 +447,7 @@
   left: 0px;
   top: -227px;
 
-  background-image: url("https://storage.googleapis.com/dsc-sample/gameboydsc.gif");
+  background-image: url("https://storage.googleapis.com/dsc-sample/gameBoyDscBigSize.gif");
   background-size: cover;
 }
 
