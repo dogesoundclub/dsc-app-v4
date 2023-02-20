@@ -88,6 +88,9 @@ export default function App() {
                     </Link>
                 </div>
                   </div>
+          <div className="footerLineBranch2">
+            <ExternalLink href="https://opensea.io/collection/dogesoundclub-mates"><div className ="footerLineBranchAttached2"></div></ExternalLink>
+          </div>
           <div className="footerLineBranch3">
             <ExternalLink href="https://discord.gg/dogesoundclub"><div className ="footerLineBranchAttached3"></div></ExternalLink>
           </div>

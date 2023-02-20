@@ -509,6 +509,16 @@
   border: 1px solid #636363;
 }
 
+.footerLineBranch2 {
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  left: 150px;
+  top: 0px;
+
+  border: 1px solid #636363;
+}
+
 .footerLineBranch3 {
   position: absolute;
   width: 0px;
@@ -606,25 +616,17 @@
 }
 
 .footerLineBranchAttached2 {
-  /* CONTACT */
+  /* Opensea */
 
   position: absolute;
-  width: 70px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   left: 5px;
   top: 20px;
 
-  font-family: "NeoDunggeunmo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  /* identical to box height */
+  background-image: url("./docs/images/shared/img/icon/OPENSEA.png");
+  background-size: cover;
 
-  display: flex;
-  align-items: center;
-
-  color: #636363;
 }
 
 .footerLineBranchAttached3 {
